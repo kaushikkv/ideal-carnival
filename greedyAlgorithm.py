@@ -10,12 +10,10 @@ class greedyAlgorithm:
 
     def sorting(self, modified_input):
         process1 = sorted(modified_input, key = lambda x: x[1])
-        print(process1)
+        # print(process1)
         return process1
 
     def calculate(self, sorted_list):
-        x = sorted_list[1]
-        print(x)
         manufacturing = []
         assembling=[]
         for i in range(0, len(sorted_list)):
@@ -25,5 +23,6 @@ class greedyAlgorithm:
                 assembling.append(0)
             for j in range(0, int(sorted_list[i][2])):
                 assembling.append(sorted_list[i][0])
-        print(manufacturing)
-        print(assembling)
+        # print(manufacturing)
+        # print(assembling)
+        return manufacturing, assembling
