@@ -8,11 +8,6 @@ class greedyAlgorithm:
 
 
 
-#    def sorting(self, modified_input):
-#        process1 = sorted(modified_input, key = lambda x: x[1])
-#        # print(process1)
-#        return process1
-
     def calculate(self, sorted_list):
         manufacturing = []
         assembling=[]
