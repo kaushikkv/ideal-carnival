@@ -1,7 +1,3 @@
-def sortSecond(val):
-    print(val[1])
-    return val[1]
-
 class greedyAlgorithm:
     def __init__(self):
         pass
